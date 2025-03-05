@@ -136,7 +136,6 @@ ENV/
 env.bak/
 venv.bak/
 .artifacts
-.notebook
 
 # Spyder project settings
 .spyderproject
