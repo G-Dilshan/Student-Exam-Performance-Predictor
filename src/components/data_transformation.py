@@ -42,7 +42,7 @@ class DataTransformation:
             categorical_pipeline = Pipeline(
                 steps=[
                     ('imputer', SimpleImputer(strategy='most_frequent')),
-                    ('one_hot-encoder', OneHotEncoder())
+                    ('one_hot_encoder', OneHotEncoder())
                 ]
             )
             logging.info('Categorical columns encoding completed')
